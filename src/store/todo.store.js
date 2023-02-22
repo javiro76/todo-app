@@ -83,6 +83,7 @@ const deleteCompleted = () => {
  * @param {Filters} newFilter 
  */
 const setFilter = ( newFilter = Filters.All ) => {
+    //Object.keys(Filters).includes('All','Completed','Pending')
     state.filter = newFilter;
 }
 
